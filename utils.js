@@ -15,6 +15,6 @@ function checkUsersInGroup(userIds, waitUpdateMs, waitRequestsMs){
 		var userId = userIds[i]
 		result[i] = {userId: userId, member: checkUserInGroup(userId)}
 		sleep(waitRequestsMs)
-    }
-    return result
+	}
+	return result
 }
