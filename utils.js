@@ -1,6 +1,6 @@
 function sleep(ms) {
-  ms += new Date().getTime()
-  while (new Date() < ms){}
+	ms += new Date().getTime()
+	while (new Date() < ms){}
 } 
 function checkUserInGroup(userId, waitUpdateMs){
 	document.getElementById('dev_const_user_id').value = ''
